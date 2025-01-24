@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo Test Suite">
+    <test name="Demo Test">
+        <classes>
+            <!--<class name="org.qa.DemoTest"> </class>-->
+            <class name="org.qa.DemoTestSecond"> </class>
+        </classes>
+    </test>
+    <test name="Demo Test -2">
+        <classes>
+            <!--<class name="org.qa.DemoTest"> </class>-->
+            <class name="org.qa.DemoTestSecond"> </class>
+        </classes>
+    </test>
+</suite>
