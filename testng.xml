@@ -9,7 +9,7 @@
     </test>
     <test name="Demo Test -2">
         <classes>
-            <!--<class name="org.qa.DemoTest"> </class>-->
+            <class name="org.qa.DemoTest"> </class>
             <class name="org.qa.DemoTestSecond"> </class>
         </classes>
     </test>

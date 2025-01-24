@@ -35,9 +35,9 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.2.5</version>
         <configuration>
-          <suiteXmlFiles>${fileName}
+          <suiteXmlFiles><!--${fileName}-->
             <!--suppress UnresolvedMavenProperty -->
-            <!--<suiteXmlFile>${fileName}</suiteXmlFile>-->
+            <suiteXmlFile>${fileName}</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
