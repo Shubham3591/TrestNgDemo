@@ -3,6 +3,7 @@ package org.qa;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class ParallelTests {
     public WebDriver driver;
@@ -11,6 +12,7 @@ public class ParallelTests {
         System.out.println(Thread.currentThread().getId());
         driver = new ChromeDriver();
         driver.get("https://github.com/");
+
     }
 
     @Test
